@@ -1,0 +1,4 @@
+#!/bin/bash
+export PYFILE="script.py"
+
+python3 $PYFILE
