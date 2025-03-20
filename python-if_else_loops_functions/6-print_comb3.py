@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-
-print(", ".join(".{:02}".format(i) for i in range(10, 100) if i // 10 < i % 10))
+for i in range(10):
+    for j in range(i + 1, 10):
+        print("{}{}".format(i, j), end=", "if < 8 else "\n")
