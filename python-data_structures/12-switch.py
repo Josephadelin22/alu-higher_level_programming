@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
-def upperca9str):
+def uppercase_str(my_str):
     result = ""
-    for char in str:
-        if 'a' <= char <= 'z'
+    for char in my_str:
+        if 'a' <= char <= 'z':
             result += chr(ord(char) - 32)
         else:
             result += char
